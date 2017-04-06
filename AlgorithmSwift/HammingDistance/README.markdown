@@ -1,5 +1,4 @@
-The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
-[https://en.wikipedia.org/wiki/Hamming_distance]
+The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between two integers is the number of positions at which the corresponding bits are different.
 
 Given two integers x and y, calculate the Hamming distance.
 
@@ -9,7 +8,7 @@ Note:
 ```
 
 
-##Example:##
+##Example:
 
 Input: x = 1, y = 4
 
