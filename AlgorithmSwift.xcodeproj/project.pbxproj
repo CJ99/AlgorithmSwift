@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D69D18841E95E5E200055073 /* HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D18831E95E5E200055073 /* HammingDistance.swift */; };
+		D6FC48D21E95E95900049EA9 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48D11E95E95900049EA9 /* README.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -15,6 +16,7 @@
 		D69D18761E95E4AA00055073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D69D18821E95E5E200055073 /* HammingDistance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = HammingDistance.playground; path = HammingDistance/HammingDistance.playground; sourceTree = "<group>"; };
 		D69D18831E95E5E200055073 /* HammingDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HammingDistance.swift; path = HammingDistance/HammingDistance.swift; sourceTree = "<group>"; };
+		D6FC48D11E95E95900049EA9 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.markdown; path = HammingDistance/README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				D69D18821E95E5E200055073 /* HammingDistance.playground */,
 				D69D18831E95E5E200055073 /* HammingDistance.swift */,
+				D6FC48D11E95E95900049EA9 /* README.markdown */,
 			);
 			name = HammingDistance;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FC48D21E95E95900049EA9 /* README.markdown in Sources */,
 				D69D18841E95E5E200055073 /* HammingDistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +315,7 @@
 				D69D187C1E95E4AA00055073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
