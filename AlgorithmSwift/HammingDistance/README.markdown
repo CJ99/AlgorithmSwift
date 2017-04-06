@@ -2,13 +2,13 @@ The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between t
 
 Given two integers x and y, calculate the Hamming distance.
 
-Note:
+**Note**:
 ```
 0 ≤ x, y < 2
 ```
 
 
-##Example:
+### Example:
 
 Input: x = 1, y = 4
 
