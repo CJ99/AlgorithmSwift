@@ -69,10 +69,10 @@
 		D69D18741E95E4AA00055073 /* AlgorithmSwift */ = {
 			isa = PBXGroup;
 			children = (
-				D69D187D1E95E4BA00055073 /* Hamming Distance */,
 				D69D18761E95E4AA00055073 /* Info.plist */,
-				68B575A41E96C2540041F834 /* Number Complement */,
 				D6FC48D51E98BB7C00049EA9 /* Add Digits */,
+				D69D187D1E95E4BA00055073 /* Hamming Distance */,
+				68B575A41E96C2540041F834 /* Number Complement */,
 			);
 			path = AlgorithmSwift;
 			sourceTree = "<group>";
