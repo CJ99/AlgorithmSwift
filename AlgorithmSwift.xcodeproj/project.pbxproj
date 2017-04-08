@@ -8,20 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		68B575A31E96C2220041F834 /* NumberComplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B575A21E96C2220041F834 /* NumberComplement.swift */; };
-		68B575A71E96C3F20041F834 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 68B575A61E96C3F20041F834 /* README.markdown */; };
+		68B575A71E96C3F20041F834 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 68B575A61E96C3F20041F834 /* README.md */; };
 		D69D18841E95E5E200055073 /* HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D18831E95E5E200055073 /* HammingDistance.swift */; };
-		D6FC48D21E95E95900049EA9 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48D11E95E95900049EA9 /* README.markdown */; };
+		D6FC48D21E95E95900049EA9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48D11E95E95900049EA9 /* README.md */; };
+		D6FC48D41E98BB5C00049EA9 /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48D31E98BB5C00049EA9 /* AddDigits.swift */; };
+		D6FC48D81E98BCA200049EA9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48D71E98BCA200049EA9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		68B575A21E96C2220041F834 /* NumberComplement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberComplement.swift; path = NumberComplement/NumberComplement.swift; sourceTree = "<group>"; };
 		68B575A51E96C2870041F834 /* NumberComplement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = NumberComplement.playground; path = NumberComplement/NumberComplement.playground; sourceTree = "<group>"; };
-		68B575A61E96C3F20041F834 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.markdown; path = NumberComplement/README.markdown; sourceTree = "<group>"; };
+		68B575A61E96C3F20041F834 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = NumberComplement/README.md; sourceTree = "<group>"; };
 		D69D18721E95E4AA00055073 /* AlgorithmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgorithmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69D18761E95E4AA00055073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D69D18821E95E5E200055073 /* HammingDistance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = HammingDistance.playground; path = HammingDistance/HammingDistance.playground; sourceTree = "<group>"; };
 		D69D18831E95E5E200055073 /* HammingDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HammingDistance.swift; path = HammingDistance/HammingDistance.swift; sourceTree = "<group>"; };
-		D6FC48D11E95E95900049EA9 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.markdown; path = HammingDistance/README.markdown; sourceTree = "<group>"; };
+		D6FC48D11E95E95900049EA9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = HammingDistance/README.md; sourceTree = "<group>"; };
+		D6FC48D31E98BB5C00049EA9 /* AddDigits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddDigits.swift; path = AddDigits/AddDigits.swift; sourceTree = "<group>"; };
+		D6FC48D61E98BC4E00049EA9 /* AddDigits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = AddDigits.playground; path = AddDigits/AddDigits.playground; sourceTree = "<group>"; };
+		D6FC48D71E98BCA200049EA9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = AddDigits/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,14 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		68B575A41E96C2540041F834 /* NumberComplement */ = {
+		68B575A41E96C2540041F834 /* Number Complement */ = {
 			isa = PBXGroup;
 			children = (
 				68B575A21E96C2220041F834 /* NumberComplement.swift */,
 				68B575A51E96C2870041F834 /* NumberComplement.playground */,
-				68B575A61E96C3F20041F834 /* README.markdown */,
+				68B575A61E96C3F20041F834 /* README.md */,
 			);
-			name = NumberComplement;
+			name = "Number Complement";
 			sourceTree = "<group>";
 		};
 		D69D18681E95E4AA00055073 = {
@@ -64,21 +69,32 @@
 		D69D18741E95E4AA00055073 /* AlgorithmSwift */ = {
 			isa = PBXGroup;
 			children = (
-				D69D187D1E95E4BA00055073 /* HammingDistance */,
+				D69D187D1E95E4BA00055073 /* Hamming Distance */,
 				D69D18761E95E4AA00055073 /* Info.plist */,
-				68B575A41E96C2540041F834 /* NumberComplement */,
+				68B575A41E96C2540041F834 /* Number Complement */,
+				D6FC48D51E98BB7C00049EA9 /* Add Digits */,
 			);
 			path = AlgorithmSwift;
 			sourceTree = "<group>";
 		};
-		D69D187D1E95E4BA00055073 /* HammingDistance */ = {
+		D69D187D1E95E4BA00055073 /* Hamming Distance */ = {
 			isa = PBXGroup;
 			children = (
 				D69D18821E95E5E200055073 /* HammingDistance.playground */,
 				D69D18831E95E5E200055073 /* HammingDistance.swift */,
-				D6FC48D11E95E95900049EA9 /* README.markdown */,
+				D6FC48D11E95E95900049EA9 /* README.md */,
 			);
-			name = HammingDistance;
+			name = "Hamming Distance";
+			sourceTree = "<group>";
+		};
+		D6FC48D51E98BB7C00049EA9 /* Add Digits */ = {
+			isa = PBXGroup;
+			children = (
+				D6FC48D31E98BB5C00049EA9 /* AddDigits.swift */,
+				D6FC48D61E98BC4E00049EA9 /* AddDigits.playground */,
+				D6FC48D71E98BCA200049EA9 /* README.md */,
+			);
+			name = "Add Digits";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6FC48D21E95E95900049EA9 /* README.markdown in Sources */,
+				D6FC48D81E98BCA200049EA9 /* README.md in Sources */,
+				D6FC48D41E98BB5C00049EA9 /* AddDigits.swift in Sources */,
+				D6FC48D21E95E95900049EA9 /* README.md in Sources */,
 				68B575A31E96C2220041F834 /* NumberComplement.swift in Sources */,
-				68B575A71E96C3F20041F834 /* README.markdown in Sources */,
+				68B575A71E96C3F20041F834 /* README.md in Sources */,
 				D69D18841E95E5E200055073 /* HammingDistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
