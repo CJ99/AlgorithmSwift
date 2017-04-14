@@ -13,6 +13,7 @@
 		D6FC48D21E95E95900049EA9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48D11E95E95900049EA9 /* README.md */; };
 		D6FC48D41E98BB5C00049EA9 /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48D31E98BB5C00049EA9 /* AddDigits.swift */; };
 		D6FC48D81E98BCA200049EA9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48D71E98BCA200049EA9 /* README.md */; };
+		D6FC48F21EA090C100049EA9 /* HourglassArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48F11EA090C100049EA9 /* HourglassArrays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		D6FC48D31E98BB5C00049EA9 /* AddDigits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddDigits.swift; path = AddDigits/AddDigits.swift; sourceTree = "<group>"; };
 		D6FC48D61E98BC4E00049EA9 /* AddDigits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = AddDigits.playground; path = AddDigits/AddDigits.playground; sourceTree = "<group>"; };
 		D6FC48D71E98BCA200049EA9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = AddDigits/README.md; sourceTree = "<group>"; };
+		D6FC48F11EA090C100049EA9 /* HourglassArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourglassArrays.swift; path = HourglassArrays/HourglassArrays.swift; sourceTree = "<group>"; };
+		D6FC48F41EA091E100049EA9 /* HourglassArrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = HourglassArrays.playground; path = HourglassArrays/HourglassArrays.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 				D6FC48D51E98BB7C00049EA9 /* Add Digits */,
 				D69D187D1E95E4BA00055073 /* Hamming Distance */,
 				68B575A41E96C2540041F834 /* Number Complement */,
+				D6FC48F31EA090CF00049EA9 /* Hourglass Arrays */,
 			);
 			path = AlgorithmSwift;
 			sourceTree = "<group>";
@@ -95,6 +99,15 @@
 				D6FC48D71E98BCA200049EA9 /* README.md */,
 			);
 			name = "Add Digits";
+			sourceTree = "<group>";
+		};
+		D6FC48F31EA090CF00049EA9 /* Hourglass Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				D6FC48F11EA090C100049EA9 /* HourglassArrays.swift */,
+				D6FC48F41EA091E100049EA9 /* HourglassArrays.playground */,
+			);
+			name = "Hourglass Arrays";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +195,7 @@
 				D6FC48D21E95E95900049EA9 /* README.md in Sources */,
 				68B575A31E96C2220041F834 /* NumberComplement.swift in Sources */,
 				68B575A71E96C3F20041F834 /* README.md in Sources */,
+				D6FC48F21EA090C100049EA9 /* HourglassArrays.swift in Sources */,
 				D69D18841E95E5E200055073 /* HammingDistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
