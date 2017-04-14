@@ -14,6 +14,7 @@
 		D6FC48D41E98BB5C00049EA9 /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48D31E98BB5C00049EA9 /* AddDigits.swift */; };
 		D6FC48D81E98BCA200049EA9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48D71E98BCA200049EA9 /* README.md */; };
 		D6FC48F21EA090C100049EA9 /* HourglassArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48F11EA090C100049EA9 /* HourglassArrays.swift */; };
+		D6FC48F61EA0A8B900049EA9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D6FC48F51EA0A8B900049EA9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D6FC48D71E98BCA200049EA9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = AddDigits/README.md; sourceTree = "<group>"; };
 		D6FC48F11EA090C100049EA9 /* HourglassArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourglassArrays.swift; path = HourglassArrays/HourglassArrays.swift; sourceTree = "<group>"; };
 		D6FC48F41EA091E100049EA9 /* HourglassArrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = HourglassArrays.playground; path = HourglassArrays/HourglassArrays.playground; sourceTree = "<group>"; };
+		D6FC48F51EA0A8B900049EA9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = HourglassArrays/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				D6FC48F11EA090C100049EA9 /* HourglassArrays.swift */,
 				D6FC48F41EA091E100049EA9 /* HourglassArrays.playground */,
+				D6FC48F51EA0A8B900049EA9 /* README.md */,
 			);
 			name = "Hourglass Arrays";
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				68B575A31E96C2220041F834 /* NumberComplement.swift in Sources */,
 				68B575A71E96C3F20041F834 /* README.md in Sources */,
 				D6FC48F21EA090C100049EA9 /* HourglassArrays.swift in Sources */,
+				D6FC48F61EA0A8B900049EA9 /* README.md in Sources */,
 				D69D18841E95E5E200055073 /* HammingDistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
