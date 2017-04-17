@@ -6,7 +6,7 @@ var rows = 6, cols = 6
 var dimensional = Array<Array<String>>()
 
 for col in 0..<6 {
-    let numStrings = readLine()!
+    let numStrings = "1 2 3 4 5 6"
     dimensional.append(Array(numStrings.components(separatedBy: " ")))
 }
 
